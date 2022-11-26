@@ -1,0 +1,39 @@
+.header {
+    background-image: url(/kepek/fejlec.jpg);
+}
+
+.header p{
+ padding: 90px 0 20px;
+ text-align: center;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 22px;
+ font-weight: bold;
+ text-shadow: 1px 1px black;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    border: 1px;
+    border-radius: 8px;
+    background-color: rgb(25, 94, 244);
+    display: inline-block;
+    margin: 1px;
+    padding: 8px 50px;
+    text-align: center;
+    width: 80px;
+}
+
+.pictures_border{
+    width: 200px;
+    height: 100px;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
